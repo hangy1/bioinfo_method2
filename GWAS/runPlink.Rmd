@@ -1,0 +1,82 @@
+---
+title: "runPlink"
+author: "Hang Yin"
+date: "4/6/2020"
+output: md_document
+bibliography: bibliography.ris
+---
+## Title: Example of running Plink
+
+## Author: Hang Yin
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Method
+Second-Generation Plink[@Chang] is used to analyze the whole genome association.In this module, data of randomly selected genotypes (approximately 80,000 autosomal SNPs) from the 89 Asian HapMap individuals were analyzed by Plink. The analysis includes summary statistics of missing rates and allele frequencies, basic association analysis, genotypic association models, stratification analysis, clusters association analysis, quantitative trail association analysis and extracting a SNP of interest
+
+## Result
+## Summary statistics: missing rates
+```{bash}
+#individual missingness information
+head miss_stat.lmiss
+#locus missingness information
+head miss_stat.imiss
+```
+
+## Allele frequencies smilarirty analysis
+```{bash}
+head freq_stat.frq
+#stratified analysis
+head freq_stat.frq.strat
+```
+
+## Basic association analysis
+```{bash}
+#association analysis on the disease trait for all single SNPs
+sort --key=8 -nr as1.assoc | head
+#association analysis with FDR adjusted
+head as2.assoc.adjusted
+```
+
+## Genotypic and other association models
+```{bash}
+#calculate association statistic for  run it for rs2222162
+head mod2.model
+```
+## Stratification analysis
+```{bash}
+head str1.cluster1
+```{r}
+
+```
+## Association analysis, accounting for clusters
+```{bash}
+head aac1.cmh.adjusted
+head aac2.cmh.adjusted
+head aac3.cmh.adjusted
+```
+
+## Quantitative trait association analysis
+```{bash}
+head quant1.qassoc.adjusted 
+#with permutation test
+head quant2.qassoc.adjusted
+```
+
+## Extracting a SNP of interest (rs2222162)
+```{r , echo=TRUE}
+d <- read.table("rec_snp1.raw" , header=T)
+summary(glm(PHENOTYPE-1 ~ rs2222162_1, data=d, family="binomial"))
+```
+## Visualization of clusters based on pairwsie IBS distances
+```{r , echo=FALSE}
+m <- as.matrix(read.table("ibd_view.mibs"))
+mds <- cmdscale(as.dist(1-m))
+k <- c( rep("green",45) , rep("blue",44) )
+plot(mds,pch=20,col=k)
+
+```
+
+## References

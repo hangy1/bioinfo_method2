@@ -1,0 +1,18 @@
+---
+author: Hang Yin
+output:
+  md_document:
+    variant: gfm
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    dev: 'svg'
+bibliography: bibliography.ris
+---
+
+## Method
+
+1.The reference genome GRCh38 was retrieved from link: ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_27/GRCh38.primary_assembly.genome.fa.gz. 2.Ncbi fastq-dump tool was used to retrieve NGS reads of accession SRR6808334. 3.To quality trim the reads, Trimmomatic(@Bolger) was used to trim SRR6808334 left and right reads. 4.Burrows-Wheeler Alignment Tool(bwa)(@Li&Durbin) was used to index reference genome GRCh38. 5. bwa mem(@Mckenna) was used to align reference genome reads and SRR6808334 reads. 6.Samtools(@Li&Handsaker) was applied to sort sam files that are created from bwa mem and output as bam files, then Samtools was used again to index sorted bam files. 7.Finally, DeepVariant method(@Poplin) was applied to create deep neural variants and then convert them from Tensor flow format to VCF format.  
+
+## References

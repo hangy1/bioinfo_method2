@@ -1,0 +1,19 @@
+TY  - JOUR
+AU  - Paulson, Joseph N
+AU  - Stine, O Colin
+AU  - Bravo, Héctor Corrada
+AU  - Pop, Mihai
+PY  - 2013
+DA  - 2013/12/01
+TI  - Differential abundance analysis for microbial marker-gene surveys
+JO  - Nature Methods
+SP  - 1200
+EP  - 1202
+VL  - 10
+IS  - 12
+AB  - The metagenomeSeq tool robustly detects the differential abundance of microbes in marker-based microbial surveys by tackling the problems of data sparsity and undersampling common to these data sets.
+SN  - 1548-7105
+UR  - https://doi.org/10.1038/nmeth.2658
+DO  - 10.1038/nmeth.2658
+ID  - Paulson2013
+ER  - 

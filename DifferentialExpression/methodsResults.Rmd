@@ -1,0 +1,45 @@
+---
+author: Hang Yin
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    dev: 'svg'
+  md_document:
+    variant: gfm
+bibliography: bibliography.ris
+---
+
+## Title 
+Differential Expression Analysis
+
+<<<<<<< HEAD
+##Author
+Hang Yin
+
+##Method
+
+##Result
+'''{r, eval=do it}
+=======
+## Method
+The purpose of this module is to determine the difference in gene expression.Firstly Salmon [@Patro] was used to quantify the RNA-seq data, then mergeKo.R was written to create a table for mapping transcripts to gene. Secondly, tximport[@Soneson] was applied to import the Salmon abundance estimates data, and lastly, DESeq2[@Love] was used to perform differential expression analysis.After the analysis was done, differently expressed genes(p value < 0.05) were extracted.
+
+## Result
+```{R,eval=TRUE}
+library(knitr)
+>>>>>>> 9d6e3664073119852c8fa9b6810e5be22646483d
+deAnnotate <- read.csv("deAnnotate.csv")
+keggId <- deAnnotate$kegg
+nonRep <- matrix(unlist(unique(keggId)), ncol = 6)
+colnames(nonRep)[1:6] <- "gene kegg ID"
+kable(nonRep)
+<<<<<<< HEAD
+'''
+
+=======
+```
+
+## References
+>>>>>>> 9d6e3664073119852c8fa9b6810e5be22646483d

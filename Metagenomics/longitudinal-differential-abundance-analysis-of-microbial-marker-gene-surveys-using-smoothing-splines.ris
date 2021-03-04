@@ -1,0 +1,12 @@
+TY  - JOUR
+T1  - Longitudinal differential abundance analysis of microbial marker-gene surveys using smoothing splines
+JF  - bioRxiv
+DO  - 10.1101/099457
+SP  - 099457
+AU  - Paulson, Joseph N.
+AU  - Talukder, Hisham
+AU  - Corrada Bravo, Héctor
+Y1  - 2017/01/01
+UR  - http://biorxiv.org/content/early/2017/01/10/099457.abstract
+N2  - Background High-throughput targeted sequencing of the 16S ribosomal RNA marker gene is often used to profile and characterize the taxonomic composition of microbial communities. This type of big high-through sequencing data is rapidly being applied to various infectious diseases like diarrhea. While many studies are limited to single “snapshots” of these communities, there is increasing recognition that longitudinal profiling of these communities are required to understand community dynamics and the complex relationships between dynamics and phenotypes of interest. Statistical methods that determine microbial features that are differentially expressed are required as an initial step to characterizing phenotypic associations with community dynamics in big data and infectious diseases.Results We present a novel method for longitudinal marker-gene surveys based on smoothing splines that allows discovery and inference of time periods where specific microbial features are differentially abundant. We applied our method to three 16S marker-gene surveys, including, groups of gnotobiotic mice on two diets, patients challenged with ETEC (H10407), and a vaginal microbiome of healthy women. Employing our methodology we recover known bacterial differences and highlight a few extra species providing insight into when specific changes occurred. Additionally, in the cohort challenged with ETEC we recover proposed probiotic bacteria Bacteroides xylanisolvens, Collinsella aerofaciens, and Faecalibacterium prausnitzii associatons with healthy individuals.Conclusions The method presented is, to our knowledge, the first flexible method of its kind implemented as a software capable of detecting time periods of differential abundance for microbial features species between two or more sample groups of interest. Our method is available within the metagenomeSeq open-source software for analysis of metagenomic package available through the Bioconductor project and is termed metaSplines.
+ER  - 
