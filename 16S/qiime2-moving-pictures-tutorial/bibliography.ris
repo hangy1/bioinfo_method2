@@ -1,0 +1,140 @@
+TY  - JOUR
+ID  - Kuczynski
+DB  - PubMed
+AU  - Kuczynski, Justin
+AU  - Stombaugh, Jesse
+AU  - Walters, William Anton
+AU  - González, Antonio
+AU  - Caporaso, J Gregory
+AU  - Knight, Rob
+T1  - Using QIIME to analyze 16S rRNA gene sequences from microbial communities
+LA  - eng
+SN  - 1934-340X
+SN  - 1934-3396
+Y1  - 2011/12/
+AB  - QIIME (canonically pronounced "chime") is a software application that performs microbial community analysis. It is an acronym for Quantitative Insights Into Microbial Ecology, and has been used to analyze and interpret nucleic acid sequence data from fungal, viral, bacterial, and archaeal communities. The following protocols describe how to install QIIME on a single computer and use it to analyze microbial 16S sequence data from nine distinct microbial communities.
+SP  - Unit10.7
+EP  - 10.7.
+VL  - Chapter 10
+AN  - 22161565
+UR  - https://pubmed.ncbi.nlm.nih.gov/22161565
+DO  - 10.1002/0471250953.bi1007s36
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3249058/
+U1  - 22161565[pmid]
+U2  - PMC3249058[pmcid]
+J2  - Curr Protoc Bioinformatics
+JF  - Current protocols in bioinformatics
+KW  - Bacteria/classification/*genetics
+KW  - Biodiversity
+KW  - DNA, Bacterial/chemistry
+KW  - *Genes, rRNA
+KW  - Phylogeny
+KW  - RNA, Ribosomal, 16S/*genetics
+KW  - Sequence Analysis, RNA/*methods
+KW  - *Software
+ER  - 
+TY  - JOUR
+ID  - Caporaso
+DB  - PubMed
+AU  - Caporaso, J Gregory
+AU  - Lauber, Christian L
+AU  - Costello, Elizabeth K
+AU  - Berg-Lyons, Donna
+AU  - Gonzalez, Antonio
+AU  - Stombaugh, Jesse
+AU  - Knights, Dan
+AU  - Gajer, Pawel
+AU  - Ravel, Jacques
+AU  - Fierer, Noah
+AU  - Gordon, Jeffrey I
+AU  - Knight, Rob
+T1  - Moving pictures of the human microbiome
+LA  - eng
+SN  - 1474-760X
+SN  - 1465-6906
+Y1  - 2011
+AB  - BACKGROUND: Understanding the normal temporal variation in the human microbiome is critical to developing treatments for putative microbiome-related afflictions such as obesity, Crohn’s disease, inflammatory bowel disease and malnutrition. Sequencing and computational technologies, however, have been a limiting factor in performing dense time series analysis of the human microbiome. Here, we present the largest human microbiota time series analysis to date, covering two individuals at four body sites over 396 timepoints. RESULTS: We find that despite stable differences between body sites and individuals, there is pronounced variability in an individual’s microbiota across months, weeks and even days. Additionally, only a small fraction of the total taxa found within a single body site appear to be present across all time points, suggesting that no core temporal microbiome exists at high abundance (although some microbes may be present but drop below the detection threshold). Many more taxa appear to be persistent but non-permanent community members. CONCLUSIONS: DNA sequencing and computational advances described here provide the ability to go beyond infrequent snapshots of our human-associated microbial ecology to high-resolution assessments of temporal variations over protracted periods, within and between body habitats and individuals. This capacity will allow us to define normal variation and pathologic states, and assess responses to therapeutic interventions.
+SP  - R50
+EP  - R50
+VL  - 12
+IS  - 5
+AN  - 21624126
+UR  - https://pubmed.ncbi.nlm.nih.gov/21624126
+DO  - 10.1186/gb-2011-12-5-r50
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3271711/
+U1  - 21624126[pmid]
+U2  - PMC3271711[pmcid]
+U4  - gb-2011-12-5-r50[PII]
+J2  - Genome Biol
+JF  - Genome biology
+KW  - Bacteria/classification/*genetics
+KW  - Computer Simulation
+KW  - Gastrointestinal Tract/*microbiology
+KW  - Genomics/*methods
+KW  - High-Throughput Nucleotide Sequencing
+KW  - Humans
+KW  - Inflammatory Bowel Diseases/microbiology
+KW  - Metagenome/*genetics
+KW  - Obesity/microbiology
+KW  - Organ Specificity
+KW  - RNA, Ribosomal, 16S/genetics
+KW  - Seasons
+KW  - Time Factors
+PB  - BioMed Central
+ER  - 
+TY  - JOUR
+ID  - Mandal
+DB  - PubMed
+AU  - Mandal, Siddhartha
+AU  - Van Treuren, Will
+AU  - White, Richard A
+AU  - Eggesbø, Merete
+AU  - Knight, Rob
+AU  - Peddada, Shyamal D
+T1  - Analysis of composition of microbiomes: a novel method for studying microbial composition
+LA  - eng
+SN  - 0891-060X
+SN  - 1651-2235
+Y1  - 2015/05/29
+AB  - BACKGROUND: Understanding the factors regulating our microbiota is important but requires appropriate statistical methodology. When comparing two or more populations most existing approaches either discount the underlying compositional structure in the microbiome data or use probability models such as the multinomial and Dirichlet-multinomial distributions, which may impose a correlation structure not suitable for microbiome data. OBJECTIVE: To develop a methodology that accounts for compositional constraints to reduce false discoveries in detecting differentially abundant taxa at an ecosystem level, while maintaining high statistical power. METHODS: We introduced a novel statistical framework called analysis of composition of microbiomes (ANCOM). ANCOM accounts for the underlying structure in the data and can be used for comparing the composition of microbiomes in two or more populations. ANCOM makes no distributional assumptions and can be implemented in a linear model framework to adjust for covariates as well as model longitudinal data. ANCOM also scales well to compare samples involving thousands of taxa. RESULTS: We compared the performance of ANCOM to the standard t-test and a recently published methodology called Zero Inflated Gaussian (ZIG) methodology (1) for drawing inferences on the mean taxa abundance in two or more populations. ANCOM controlled the false discovery rate (FDR) at the desired nominal level while also improving power, whereas the t-test and ZIG had inflated FDRs, in some instances as high as 68% for the t-test and 60% for ZIG. We illustrate the performance of ANCOM using two publicly available microbial datasets in the human gut, demonstrating its general applicability to testing hypotheses about compositional differences in microbial communities. CONCLUSION: Accounting for compositionality using log-ratio analysis results in significantly improved inference in microbiota survey data.
+SP  - 27663
+EP  - 27663
+VL  - 26
+AN  - 26028277
+UR  - https://pubmed.ncbi.nlm.nih.gov/26028277
+DO  - 10.3402/mehd.v26.27663
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4450248/
+U1  - 26028277[pmid]
+U2  - PMC4450248[pmcid]
+U4  - 27663[PII]
+J2  - Microb Ecol Health Dis
+JF  - Microbial ecology in health and disease
+KW  - constrained
+KW  - log-ratio
+KW  - relative abundance
+PB  - Co-Action Publishing
+ER  - 
+TY  - JOUR
+ID  - Amir
+T1  - Deblur Rapidly Resolves Single-Nucleotide Community Sequence Patterns
+JF  - mSystems
+DO  - 10.1128/mSystems.00191-16
+VL  - 2
+IS  - 2
+SP  - e00191-16
+AU  - Amir, Amnon
+AU  - McDonald, Daniel
+AU  - Navas-Molina, Jose A.
+AU  - Kopylova, Evguenia
+AU  - Morton, James T.
+AU  - Zech Xu, Zhenjiang
+AU  - Kightley, Eric P.
+AU  - Thompson, Luke R.
+AU  - Hyde, Embriette R.
+AU  - Gonzalez, Antonio
+AU  - Knight, Rob
+A2  - Gilbert, Jack A.
+Y1  - 2017/04/21
+UR  - http://msystems.asm.org/content/2/2/e00191-16.abstract
+N2  - High-throughput sequencing of 16S ribosomal RNA gene amplicons has facilitated understanding of complex microbial communities, but the inherent noise in PCR and DNA sequencing limits differentiation of closely related bacteria. Although many scientific questions can be addressed with broad taxonomic profiles, clinical, food safety, and some ecological applications require higher specificity. Here we introduce a novel sub-operational-taxonomic-unit (sOTU) approach, Deblur, that uses error profiles to obtain putative error-free sequences from Illumina MiSeq and HiSeq sequencing platforms. Deblur substantially reduces computational demands relative to similar sOTU methods and does so with similar or better sensitivity and specificity. Using simulations, mock mixtures, and real data sets, we detected closely related bacterial sequences with single nucleotide differences while removing false positives and maintaining stability in detection, suggesting that Deblur is limited only by read length and diversity within the amplicon sequences. Because Deblur operates on a per-sample level, it scales to modern data sets and meta-analyses. To highlight Deblur’s ability to integrate data sets, we include an interactive exploration of its application to multiple distinct sequencing rounds of the American Gut Project. Deblur is open source under the Berkeley Software Distribution (BSD) license, easily installable, and downloadable from https://github.com/biocore/deblur.IMPORTANCE Deblur provides a rapid and sensitive means to assess ecological patterns driven by differentiation of closely related taxa. This algorithm provides a solution to the problem of identifying real ecological differences between taxa whose amplicons differ by a single base pair, is applicable in an automated fashion to large-scale sequencing data sets, and can integrate sequencing runs collected over time.
+ER  - 

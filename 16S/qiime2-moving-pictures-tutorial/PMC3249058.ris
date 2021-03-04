@@ -1,0 +1,34 @@
+TY  - JOUR
+DB  - PubMed
+AU  - Kuczynski, Justin
+AU  - Stombaugh, Jesse
+AU  - Walters, William Anton
+AU  - González, Antonio
+AU  - Caporaso, J Gregory
+AU  - Knight, Rob
+T1  - Using QIIME to analyze 16S rRNA gene sequences from microbial communities
+LA  - eng
+SN  - 1934-340X
+SN  - 1934-3396
+Y1  - 2011/12/
+AB  - QIIME (canonically pronounced "chime") is a software application that performs microbial community analysis. It is an acronym for Quantitative Insights Into Microbial Ecology, and has been used to analyze and interpret nucleic acid sequence data from fungal, viral, bacterial, and archaeal communities. The following protocols describe how to install QIIME on a single computer and use it to analyze microbial 16S sequence data from nine distinct microbial communities.
+SP  - Unit10.7
+EP  - 10.7.
+VL  - Chapter 10
+AN  - 22161565
+UR  - https://pubmed.ncbi.nlm.nih.gov/22161565
+DO  - 10.1002/0471250953.bi1007s36
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3249058/
+U1  - 22161565[pmid]
+U2  - PMC3249058[pmcid]
+J2  - Curr Protoc Bioinformatics
+JF  - Current protocols in bioinformatics
+KW  - Bacteria/classification/*genetics
+KW  - Biodiversity
+KW  - DNA, Bacterial/chemistry
+KW  - *Genes, rRNA
+KW  - Phylogeny
+KW  - RNA, Ribosomal, 16S/*genetics
+KW  - Sequence Analysis, RNA/*methods
+KW  - *Software
+ER  - 

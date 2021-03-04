@@ -1,0 +1,48 @@
+TY  - JOUR
+DB  - PubMed
+AU  - Caporaso, J Gregory
+AU  - Lauber, Christian L
+AU  - Costello, Elizabeth K
+AU  - Berg-Lyons, Donna
+AU  - Gonzalez, Antonio
+AU  - Stombaugh, Jesse
+AU  - Knights, Dan
+AU  - Gajer, Pawel
+AU  - Ravel, Jacques
+AU  - Fierer, Noah
+AU  - Gordon, Jeffrey I
+AU  - Knight, Rob
+T1  - Moving pictures of the human microbiome
+LA  - eng
+SN  - 1474-760X
+SN  - 1465-6906
+Y1  - 2011
+AB  - BACKGROUND: Understanding the normal temporal variation in the human microbiome is critical to developing treatments for putative microbiome-related afflictions such as obesity, Crohn’s disease, inflammatory bowel disease and malnutrition. Sequencing and computational technologies, however, have been a limiting factor in performing dense time series analysis of the human microbiome. Here, we present the largest human microbiota time series analysis to date, covering two individuals at four body sites over 396 timepoints. RESULTS: We find that despite stable differences between body sites and individuals, there is pronounced variability in an individual’s microbiota across months, weeks and even days. Additionally, only a small fraction of the total taxa found within a single body site appear to be present across all time points, suggesting that no core temporal microbiome exists at high abundance (although some microbes may be present but drop below the detection threshold). Many more taxa appear to be persistent but non-permanent community members. CONCLUSIONS: DNA sequencing and computational advances described here provide the ability to go beyond infrequent snapshots of our human-associated microbial ecology to high-resolution assessments of temporal variations over protracted periods, within and between body habitats and individuals. This capacity will allow us to define normal variation and pathologic states, and assess responses to therapeutic interventions.
+SP  - R50
+EP  - R50
+VL  - 12
+IS  - 5
+AN  - 21624126
+UR  - https://pubmed.ncbi.nlm.nih.gov/21624126
+DO  - 10.1186/gb-2011-12-5-r50
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3271711/
+U1  - 21624126[pmid]
+U2  - PMC3271711[pmcid]
+U4  - gb-2011-12-5-r50[PII]
+J2  - Genome Biol
+JF  - Genome biology
+KW  - Bacteria/classification/*genetics
+KW  - Computer Simulation
+KW  - Gastrointestinal Tract/*microbiology
+KW  - Genomics/*methods
+KW  - High-Throughput Nucleotide Sequencing
+KW  - Humans
+KW  - Inflammatory Bowel Diseases/microbiology
+KW  - Metagenome/*genetics
+KW  - Obesity/microbiology
+KW  - Organ Specificity
+KW  - RNA, Ribosomal, 16S/genetics
+KW  - Seasons
+KW  - Time Factors
+PB  - BioMed Central
+ER  - 

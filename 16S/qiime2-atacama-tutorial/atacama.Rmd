@@ -1,0 +1,29 @@
+---
+author: Hang Yin
+output:
+  md_document:
+    variant: gfm
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    dev: 'svg'
+bibliography: bibliography.ris
+---
+## Title
+Atacama soil microbiome Method
+
+## Method
+
+The purpose of this tutorial was to perform an analysis of soil microbiomes samples from the Atacama Desert in northern Chile(@Neilson).1% subsample data was used for this tutorial. First of all sequence reads was demuptiplexed, and than DADA2(@Callahan) was used to perform quality control.
+
+## Sample data
+
+```{R,eval=TRUE}
+library(knitr)
+sample.metadata <- read.table(file = "sample_metadata.tsv", sep = '\t', header = TRUE)
+kable(sample.metadata[1:10,])
+```
+
+
+## References

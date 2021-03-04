@@ -1,0 +1,28 @@
+---
+author: Hang Yin
+output:
+  md_document:
+    variant: gfm
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    dev: 'svg'
+bibliography: bibliography.ris
+---
+## Title
+FMT study method
+
+## Method
+
+This tutorial is derived from Fecal microbiota transplant (FMT) study (@Kang). First demux method was used to produce summarized table, than DADA2(@Callahan) was used to perform quality control on 1% sequenced sample data, with denoise-single method. Last the sequences results and frequency results were merged. Further diversity analysis can be applied to FeatureTable[Frequency] and FeatureData[Sequence] objects.  
+## Sample data
+
+```{R,eval=TRUE}
+library(knitr)
+sample.metadata <- read.table(file = "sample_metadata.tsv", sep = '\t', header = TRUE)
+kable(sample.metadata[1:10,])
+```
+
+
+## References

@@ -1,0 +1,13 @@
+*.*
+!*.sh
+!*.pl
+!*.py
+!*.md
+!*.Rmd
+!*.ris
+!*.R
+!*.out
+!*.csv
+!*.ris
+!*.txt
+!.gitignore

@@ -1,0 +1,31 @@
+TY  - JOUR
+DB  - PubMed
+AU  - Mandal, Siddhartha
+AU  - Van Treuren, Will
+AU  - White, Richard A
+AU  - Eggesbø, Merete
+AU  - Knight, Rob
+AU  - Peddada, Shyamal D
+T1  - Analysis of composition of microbiomes: a novel method for studying microbial composition
+LA  - eng
+SN  - 0891-060X
+SN  - 1651-2235
+Y1  - 2015/05/29
+AB  - BACKGROUND: Understanding the factors regulating our microbiota is important but requires appropriate statistical methodology. When comparing two or more populations most existing approaches either discount the underlying compositional structure in the microbiome data or use probability models such as the multinomial and Dirichlet-multinomial distributions, which may impose a correlation structure not suitable for microbiome data. OBJECTIVE: To develop a methodology that accounts for compositional constraints to reduce false discoveries in detecting differentially abundant taxa at an ecosystem level, while maintaining high statistical power. METHODS: We introduced a novel statistical framework called analysis of composition of microbiomes (ANCOM). ANCOM accounts for the underlying structure in the data and can be used for comparing the composition of microbiomes in two or more populations. ANCOM makes no distributional assumptions and can be implemented in a linear model framework to adjust for covariates as well as model longitudinal data. ANCOM also scales well to compare samples involving thousands of taxa. RESULTS: We compared the performance of ANCOM to the standard t-test and a recently published methodology called Zero Inflated Gaussian (ZIG) methodology (1) for drawing inferences on the mean taxa abundance in two or more populations. ANCOM controlled the false discovery rate (FDR) at the desired nominal level while also improving power, whereas the t-test and ZIG had inflated FDRs, in some instances as high as 68% for the t-test and 60% for ZIG. We illustrate the performance of ANCOM using two publicly available microbial datasets in the human gut, demonstrating its general applicability to testing hypotheses about compositional differences in microbial communities. CONCLUSION: Accounting for compositionality using log-ratio analysis results in significantly improved inference in microbiota survey data.
+SP  - 27663
+EP  - 27663
+VL  - 26
+AN  - 26028277
+UR  - https://pubmed.ncbi.nlm.nih.gov/26028277
+DO  - 10.3402/mehd.v26.27663
+L2  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4450248/
+U1  - 26028277[pmid]
+U2  - PMC4450248[pmcid]
+U4  - 27663[PII]
+J2  - Microb Ecol Health Dis
+JF  - Microbial ecology in health and disease
+KW  - constrained
+KW  - log-ratio
+KW  - relative abundance
+PB  - Co-Action Publishing
+ER  - 

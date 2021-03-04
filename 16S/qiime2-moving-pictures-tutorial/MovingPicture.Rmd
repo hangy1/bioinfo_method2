@@ -1,0 +1,29 @@
+---
+author: Hang Yin
+output:
+  md_document:
+    variant: gfm
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    dev: 'svg'
+bibliography: bibliography.ris
+---
+## Title
+Moving Picture Method
+
+## Method
+
+The moving picture tutorial uses QIIME2 to analyze human microbiome samples(@Kuczynski) from published sample data (@Caporaso). First step was demultiplexing sequence, then Deblur(@Amir) method was used to perform quality control.Then visual summaries was created by using qiime feature-table methods.The summarized data was used to perform phylogenetic analysis, Alpha and beta diversity analysis, Alpha rarefaction plotting, Taxonomic analysis, and differential abundance testing with ANCOM(@Mandal).
+
+## Sample data
+
+```{R,eval=TRUE}
+library(knitr)
+sample.metadata <- read.table(file = "sample_metadata.tsv", sep = '\t', header = TRUE)
+kable(sample.metadata[1:10,])
+```
+
+
+## References
