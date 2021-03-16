@@ -10,4 +10,5 @@
 !*.csv
 !*.ris
 !*.txt
+!*.html
 !.gitignore
