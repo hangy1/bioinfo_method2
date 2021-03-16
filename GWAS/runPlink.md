@@ -20,7 +20,7 @@ Result
 ------
 
 Summary statistics: missing rates
----------------------------------
+=================================
 
     #individual missingness information
     head miss_stat.lmiss
@@ -49,7 +49,7 @@ Summary statistics: missing rates
     ##   HCB189    1          N      517    83534 0.006189
 
 Allele frequencies smilarirty analysis
---------------------------------------
+======================================
 
     head freq_stat.frq
     #stratified analysis
@@ -77,7 +77,7 @@ Allele frequencies smilarirty analysis
     ##    1   rs9729550        1    1    2   0.1444     13       90
 
 Basic association analysis
---------------------------
+==========================
 
     #association analysis on the disease trait for all single SNPs
     sort --key=8 -nr as1.assoc | head
@@ -106,7 +106,7 @@ Basic association analysis
     ##   14   rs1152431  3.862e-05  0.0002374          1          1     0.9297     0.9297     0.2737          1
 
 Genotypic and other association models
---------------------------------------
+======================================
 
     #calculate association statistic for  run it for rs2222162
     head mod2.model
@@ -119,7 +119,7 @@ Genotypic and other association models
     ##    2   rs2222162    1    2      REC           3/41          17/28        12.24    1    0.0004679
 
 Stratification analysis
------------------------
+=======================
 
     head str1.cluster1
 
@@ -135,7 +135,7 @@ Stratification analysis
     ## SOL-9     HCB191_1 HCB220_1
 
 Association analysis, accounting for clusters
----------------------------------------------
+=============================================
 
     head aac1.cmh.adjusted
     head aac2.cmh.adjusted
@@ -231,9 +231,9 @@ Extracting a SNP of interest (rs2222162)
     ## Number of Fisher Scoring iterations: 4
 
 Visualization of clusters based on pairwsie IBS distances
----------------------------------------------------------
+=========================================================
 
-![](runPlink_files/figure-markdown_strict/unnamed-chunk-10-1.png)
+![](Figs/unnamed-chunk-10-1.png)
 
 References
 ----------
